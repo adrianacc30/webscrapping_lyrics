@@ -1,0 +1,19 @@
+# Local credentials and settings
+.env
+.env.*
+!.env.example
+
+# Generated lyrics and local output
+*_lyrics.txt
+outputs/
+
+# Notebook checkpoints and Python environments
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
